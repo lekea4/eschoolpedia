@@ -1,0 +1,312 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    background: #E5E5E5;
+}
+
+.navbar-nav li {
+    padding-right: 30px;
+
+}
+
+.nav-link {
+    font-size: 1.1rem !important;
+}
+
+nav .btn-success {
+    margin-right: 2%;
+}
+
+.banner {
+    /* margin: 2rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+.hero-title {
+    width: 40%;
+    margin: 8% 0;
+    background-color: transparent;
+}
+
+.hero-title h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    word-spacing: 5px;
+}
+
+.hero-title p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    word-spacing: 3px;
+
+}
+
+.banner button {
+    margin-top: 40px;
+}
+
+.hero-img {
+    width: 40%;
+    margin: 8% 0;
+    float: right;
+    background-color: transparent;
+}
+
+.banner-img {
+    height: 180px;
+    width: 443px;
+    /* left: 798px;
+    top: 354px;
+    border-radius: 0px; */
+
+}
+
+.grow {
+    display: flex;
+    flex-direction: row;
+    /* height: 100px; */
+    background: #C2CFDC;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+
+
+}
+
+.grow h2 {
+    word-spacing: 5px;
+    font-size: 35px;
+}
+
+.grow-button {
+    background-color: #00386E;
+    border: none;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.grow-button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .lead {
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    margin: 30px 0 30px 150px;
+}
+
+.lead-btn {
+    margin: 30px;
+} */
+
+footer {
+    text-decoration: none;
+    padding-top: 100px;
+
+
+}
+
+.footer-content {
+    margin: 0 2rem;
+    color: #222;
+}
+
+footer a {
+    color: #222;
+    text-decoration: none;
+}
+
+footer h5 {
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.contentlink p {
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+    }
+
+    .fa-bars {
+        color: #3CB161;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-brand {
+        width: 153px;
+        height: 30px;
+
+    }
+
+    nav .btn-success {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-title {
+        width: 85%;
+        margin-top: 20%;
+        margin-bottom: 8%;
+        margin-left: 7.5%;
+        background-color: transparent;
+    }
+
+    .hero-img {
+        width: 85%;
+        margin: 8% 0;
+        margin-left: 7.5%;
+        background-color: transparent;
+    }
+
+    .banner-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 150px;
+
+    }
+
+    .hero-title h2 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        word-spacing: 5px;
+
+
+    }
+
+    .hero-title p {
+        font-size: 1rem;
+        font-weight: 300;
+        word-spacing: 1px;
+        line-height: 20px;
+
+    }
+
+    .title-a {}
+
+    .grow {
+        display: flex;
+        flex-direction: column;
+        /* height: 100px; */
+        padding: 10 10;
+        align-items: center;
+        text-align: center;
+
+
+    }
+
+    .grow h2 {
+        word-spacing: 2px;
+        font-size: 20px;
+    }
+
+    .grow .btn-primary {
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer-desc {
+        display: none;
+    }
+
+    footer {
+        padding-top: 50px;
+
+    }
+
+
+    .footerlogo {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .in-touch {
+        line-height: 4px;
+        margin-bottom: 10px;
+    }
+
+    .mail {
+        display: none;
+    }
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ...
+}
+
+
+
+
+
+/* @media screen and (max-width: 479px) {
+    /* start of phone styles */
+
+
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    /* start of large large devices */
+
+}
+
+*/
